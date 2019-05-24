@@ -1,4 +1,4 @@
-package com.hr.langproficiency.java.easy;
+package com.hr.problemsolving.easy;
 
 import java.util.Arrays;
 
