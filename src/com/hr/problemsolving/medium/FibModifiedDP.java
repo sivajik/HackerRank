@@ -15,7 +15,11 @@ public class FibModifiedDP {
 
 	static BigInteger fibonacciModified(int t1, int t2, int n) {
 		if (n == 1) {
-			return BigInteger.ZERO;
+			return BigInteger.valueOf(t1);
+		}
+
+		if (n == 2) {
+			return BigInteger.valueOf(t2);
 		}
 
 		BigInteger[] dp = new BigInteger[n];
