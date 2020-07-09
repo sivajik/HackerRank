@@ -4,14 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class EquiizeArray {
-
 	public static void main(String[] args) {
 		System.out.println(equalizeArray(new int[] { 1, 2, 2, 3 }));
 		System.out.println(equalizeArray(new int[] { 3, 3, 2, 1, 3 }));
 		System.out.println(equalizeArray(new int[] { 37, 32, 97, 35, 76, 62 }));
 
 	}
-
+//
 	// Complete the equalizeArray function below.
 	static int equalizeArray(int[] arr) {
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
